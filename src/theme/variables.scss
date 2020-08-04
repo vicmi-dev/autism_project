@@ -76,6 +76,60 @@
   --ion-color-light-tint: #f5f6f9;
 }
 
+ion-content{
+
+  --ion-background-color:#edecec;
+}
+
+.topright {
+  position: absolute;
+  top: 8px;
+  width: 90px;
+  height: auto;
+  right: 16px;
+  font-size: 18px;
+}
+
+.topleft {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  width: 500px;
+  height: auto;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.bottomright {
+  position: absolute;
+  bottom: 8px;
+  width: 90px;
+  height: auto;
+  right: 16px;
+  font-size: 18px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 8px;
+  width: 90px;
+  height: auto;
+  left: 16px;
+  font-size: 18px;
+}
+
+* {
+	outline:none;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.shadow{
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter:         drop-shadow(5px 5px 5px #222); 
+}
 @media (prefers-color-scheme: dark) {
   /*
    * Dark Colors
